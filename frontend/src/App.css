@@ -1,0 +1,106 @@
+
+.test {
+  color: rgba(8, 65, 92, 1);
+  color: rgba(167, 29, 49, 1);
+  color: rgba(235, 186, 185, 1);
+  color: rgba(56, 134, 151, 1);
+  color: rgba(181, 255, 225, 1);
+
+}
+
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+.App {
+  margin-top: 50px; 
+}
+
+
+.App__title {
+  text-align: center; 
+} 
+
+.App__logo {
+  font-size: 30px;
+}
+
+.Joke__container {
+
+  margin: 50px auto;
+}
+
+.Joke__message {
+
+}
+
+.Joke__card {
+  border: 1.5px solid rgba(8, 65, 92, 1);
+  width: 700px;
+  border-bottom: none;
+}
+
+.Joke__card:first-of-type {
+  border-radius: 5px 5px 0 0;
+}
+
+.Joke__card:last-of-type {
+  border-radius: 0 0 5px 5px; 
+  border-bottom: 1.5px solid rgba(8, 65, 92, 1);
+}
+
+.Joke__card-author {
+
+}
+
+.Joke__card-joke {
+
+}
+
+.Joke__card-votes {
+
+}
+
+.Joke__form  {
+
+}
+
+.Joke__form-group {
+ text-align: center;
+ margin: 10px 0;
+}
+
+.Joke__form-input {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid grey;
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  margin: 0 auto; 
+}
+
+.Joke__form-input:focus {
+  outline:none;
+  border-color: rgba(56, 134, 151, 1);
+}
+
+.Joke__button {
+  display: block; 
+  margin: 10px auto;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8em; 
+}
+
+.Joke__button--post {
+  background:rgba(8, 65, 92, 1);
+  color: white;
+}
+
+.Joke__button--post:hover, .Joke__button--post:active {
+  background: rgba(56, 134, 151, 1);
+  cursor: pointer;
+}
